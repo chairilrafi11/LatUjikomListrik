@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "717010465443",
+    "firebase_url": "https://ujikom-22255.firebaseio.com",
+    "project_id": "ujikom-22255",
+    "storage_bucket": "ujikom-22255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717010465443:android:44260414a7cf6a99",
+        "android_client_info": {
+          "package_name": "com.example.asus.latpembayaranlistrik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717010465443-2hotdh38kp6oop7ulm8v8ap2vukpft7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.latpembayaranlistrik",
+            "certificate_hash": "15a16a61b9009e2c9f3db3dce7fbfa640c31d02e"
+          }
+        },
+        {
+          "client_id": "717010465443-shmhq4hmi4aljvnpn47g5hq6ajp24l9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4UeGqu6H5sVTytbhU-XTmsb3IT-e_Mr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717010465443-shmhq4hmi4aljvnpn47g5hq6ajp24l9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
