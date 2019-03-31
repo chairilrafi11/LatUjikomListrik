@@ -26,7 +26,8 @@
         <activity
             android:name=".Main_Admin"
             android:label="@string/title_activity_main__admin"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainPengguna"></activity>
     </application>
 
 </manifest>
