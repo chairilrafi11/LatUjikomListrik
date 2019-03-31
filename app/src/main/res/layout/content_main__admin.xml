@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,15 +17,36 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/TextSelamatDatang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dashboard Admin"
+                android:text="Selamat Datang"
                 android:textSize="30dp"
                 android:textAlignment="center"
-                android:layout_marginTop="200dp"/>
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:id="@+id/ImgProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextSelamatDatang"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_foto"
+                />
+
+            <TextView
+                android:id="@+id/TextNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Saya Jajang"
+                android:textSize="25dp"
+                android:layout_below="@+id/ImgProfile"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"/>
 
         </RelativeLayout>
 
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

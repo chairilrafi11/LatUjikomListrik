@@ -6,12 +6,104 @@
     android:layout_height="match_parent"
     tools:context=".MainPengguna">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Dashboard Pengguna"
-        android:textAlignment="center"
-        android:layout_marginTop="200dp"
-        android:textSize="30dp"/>
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/TextSelamatDatang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selamat Datang"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:id="@+id/ImgProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_foto"
+                    android:layout_below="@id/TextSelamatDatang"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:id="@+id/TextNama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengguna Dadang"
+                    android:textSize="20dp"
+                    android:layout_toRightOf="@id/ImgProfile"
+                    android:layout_below="@id/TextSelamatDatang"
+                    android:layout_marginTop="100dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Kwh : 12345"
+                    android:textSize="20dp"
+                    android:layout_below="@id/TextNama"
+                    android:layout_toRightOf="@id/ImgProfile"
+                    android:layout_marginTop="10dp"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/RelativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/RelativeLayout1"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tagihan"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bulan Januari 2019 : IDR 320.000"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Belum Lunas"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah Meter : 110000"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

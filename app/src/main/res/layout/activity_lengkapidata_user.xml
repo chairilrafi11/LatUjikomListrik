@@ -4,6 +4,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lengkapidata_user">
+    tools:context=".Lengkapidata_user"
+    android:background="@drawable/bg4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/Transparan">
+
+        <TextView
+            android:id="@+id/TextViewLengkapiData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lengkapi Data"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/ImgProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_foto"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/TextViewLengkapiData"/>
+
+        <EditText
+            android:id="@+id/EditTextNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:hint="Nama"
+            android:layout_below="@+id/ImgProfile"/>
+
+        <EditText
+            android:id="@+id/EditTextNoAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Alamat"
+            android:layout_below="@id/EditTextNama"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/EditTextNoKwh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="No Kwh"
+            android:layout_below="@id/EditTextNoAlamat"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btn_lengkapi"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/EditTextNoKwh"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

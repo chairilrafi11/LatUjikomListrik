@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Report"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +28,8 @@
             android:name=".Main_Admin"
             android:label="@string/title_activity_main__admin"
             android:theme="@style/AppTheme" />
-        <activity android:name=".MainPengguna"></activity>
+        <activity android:name=".MainPengguna" />
+        <activity android:name=".Admin_profile" />
     </application>
 
 </manifest>
